@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLYONE | Premium Men's Fashion</title>
+    <meta name="description" content="You are not one of many. You are ONLYONE. High-end, minimalist luxury men's fashion and streetwear.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#">ONLYONE</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#drop">New Drops</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#" aria-label="Search"><i class="ri-search-line"></i></a>
+                <a href="#" aria-label="Cart"><i class="ri-shopping-cart-2-line"></i></a>
+                <div class="mobile-menu-btn"><i class="ri-menu-line"></i></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="hero" class="hero">
+        <div class="hero-bg" style="background-image: url('images/hero_background_1777629318514.png');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <h1 class="hero-title">ONLYONE</h1>
+            <p class="hero-subtitle">Built Different.</p>
+            <a href="#collection" class="btn btn-primary hero-btn">Shop Now</a>
+        </div>
+    </header>
+
+    <!-- FEATURED COLLECTION -->
+    <section id="collection" class="collection section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Featured Collection</h2>
+            <div class="grid-3 collection-grid">
+                
+                <!-- Product 1 -->
+                <div class="product-card fade-in-up" style="transition-delay: 0.1s;">
+                    <div class="product-img-wrapper">
+                        <img src="images/product_hoodie_1777629344537.png" alt="ONLYONE Black Hoodie" class="product-img" loading="lazy">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary btn-quick-add">Quick Add</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">O1 Essential Hoodie</h3>
+                        <p class="product-price">$185.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card fade-in-up" style="transition-delay: 0.2s;">
+                    <div class="product-img-wrapper">
+                        <img src="images/product_jacket_1777629447100.png" alt="ONLYONE White Jacket" class="product-img" loading="lazy">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary btn-quick-add">Quick Add</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">O1 Utility Jacket</h3>
+                        <p class="product-price">$245.00</p>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card fade-in-up" style="transition-delay: 0.3s;">
+                    <div class="product-img-wrapper">
+                        <img src="images/product_tshirt_1777629502083.png" alt="ONLYONE Black T-Shirt" class="product-img" loading="lazy">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary btn-quick-add">Quick Add</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">O1 Signature Tee</h3>
+                        <p class="product-price">$85.00</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center fade-in-up" style="margin-top: 4rem;">
+                <a href="#" class="btn btn-outline">View Collection</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- BRAND STATEMENT SECTION -->
+    <section id="statement" class="statement section">
+        <div class="container text-center">
+            <h2 class="statement-text fade-in-up">Not for everyone.<br>Only for the bold.</h2>
+        </div>
+    </section>
+
+    <!-- NEW ARRIVALS / DROP SECTION -->
+    <section id="drop" class="drop section">
+        <div class="container">
+            <div class="drop-header fade-in-up">
+                <h2 class="section-title mb-0">Limited Drop</h2>
+                <div class="countdown" id="countdown">
+                    <span><span id="days">02</span>d</span>
+                    <span><span id="hours">14</span>h</span>
+                    <span><span id="minutes">45</span>m</span>
+                    <span><span id="seconds">30</span>s</span>
+                </div>
+            </div>
+            
+            <div class="drop-content fade-in-up">
+                <div class="drop-image">
+                    <img src="images/exclusive_sneakers_1777629547956.png" alt="Exclusive Sneakers Drop" loading="lazy">
+                </div>
+                <div class="drop-info">
+                    <h3>Eclipse High-Top Sneaker</h3>
+                    <p class="drop-desc">Premium leather meets modern silhouette. Only 100 pairs worldwide. Each piece is individually numbered.</p>
+                    <p class="drop-price">$350.00</p>
+                    <a href="#" class="btn btn-primary drop-btn">Pre-Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT BRAND -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text fade-in-up">
+                    <h2 class="section-title">Identity.</h2>
+                    <p>ONLYONE is more than fashion. It’s an assertion of identity. Designed for those who lead, not follow.</p>
+                    <p>Every piece is crafted with uncompromising quality, minimalism, and a bold attitude. We believe in creating garments that empower the wearer.</p>
+                    <a href="#" class="link-arrow">Discover our story <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="about-image fade-in-up" style="transition-delay: 0.2s;">
+                    <img src="images/about_brand_1777629567772.png" alt="ONLYONE Lifestyle" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials section bg-light">
+        <div class="container">
+            <h2 class="section-title text-center fade-in-up">The Standard</h2>
+            <div class="grid-3 testimonials-grid">
+                <div class="testimonial-card fade-in-up" style="transition-delay: 0.1s;">
+                    <div class="stars">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                    </div>
+                    <p class="quote">"The quality is unmatched. The fit and finish make me feel confident stepping into any room."</p>
+                    <p class="author">- Marcus T.</p>
+                </div>
+                <div class="testimonial-card fade-in-up" style="transition-delay: 0.2s;">
+                    <div class="stars">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                    </div>
+                    <p class="quote">"Minimalist perfection. ONLYONE truly understands modern luxury without being loud."</p>
+                    <p class="author">- Julian R.</p>
+                </div>
+                <div class="testimonial-card fade-in-up" style="transition-delay: 0.3s;">
+                    <div class="stars">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                    </div>
+                    <p class="quote">"I bought the hoodie and jacket. Easily the best pieces in my wardrobe right now."</p>
+                    <p class="author">- David K.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER / CTA -->
+    <section id="newsletter" class="newsletter section">
+        <div class="container text-center fade-in-up">
+            <h2 class="newsletter-title">Join the ONLYONE movement</h2>
+            <p class="newsletter-subtitle">Exclusive drops, early access, and private collections.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required class="newsletter-input">
+                <button type="submit" class="btn btn-primary newsletter-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>ONLYONE</h2>
+                    <p>You are not one of many.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Clothing</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="ri-tiktok-line"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ONLYONE. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
